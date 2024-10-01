@@ -19,7 +19,7 @@
 unsigned char *video = (unsigned char *)VIDEO_MEMORY;
 
 // Placeholder for decryption key
-unsigned char decryption_key[KEY_SIZE] = { /* Your decryption key here */ };
+unsigned char decryption_key[KEY_SIZE] = { /* decryption key here */ };
 
 void draw_pixel(int x, int y, unsigned char color) {
     if (x >= 0 && x < SCREEN_WIDTH && y >= 0 && y < SCREEN_HEIGHT) {
